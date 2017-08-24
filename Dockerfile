@@ -1,5 +1,5 @@
 FROM php:7.2-rc-fpm
-
+# copy from https://github.com/laradock/php-fpm/blob/master/Dockerfile-71
 MAINTAINER zcong1993 <zhangcong1992@gmail.com>
 
 RUN apt-get update \
